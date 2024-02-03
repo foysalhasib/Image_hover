@@ -1,0 +1,44 @@
+/*=====================Common css start=========================*/
+img{
+    display: block;
+}
+body{
+    background-color: bisque;
+}
+/*=====================Common css end=========================*/
+/*===========================img part start================================*/
+.container{
+    max-width: 1300px;
+    margin: 280px auto; 
+    
+}
+.container .main{
+    display: flex;
+    column-gap: 33px;
+    transition:all linear .4s;
+}
+
+.container .main .box img{
+    width: 300px;
+    height: 400px;
+
+}
+.container .main .box img:hover{
+    transform: scale(1.12);
+}
+
+h1{
+    text-align: center;
+    margin: 100px;
+    color: blueviolet;
+}
+span{
+    color: red;
+}
+
+
+
+
+
+
+/*===========================img part end================================*/
